@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.content-wrapper {
+	width: 1200px;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+section.banner {
+	background-color: #121212;
+	background-image: linear-gradient(to right, #000, transparent), url("../images/sr-aphrodite.jpg");
+	background-size: cover;
+	height: 515px;
+	max-height: 100%;
+	width: 100%;
+	
+	display: flex;
+	align-items: center;
+}
+
+section.banner h1 {
+	color: #f0e6d2;
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+    text-shadow: 0 1px 4px #000;
+}
+
+section.banner p {
+	font-size: 14px;
+	color: #a09b8c;
+	font-family: Helvetica, Cambria, "sans-serif";
+	max-width: 365px;
+	padding: 40px 0;
+}
+
+section.banner a {
+	color: #c9aa71;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: "Beaufort Regular", Arial, "sans serif";
+	font-weight: bold;
+	letter-spacing: 0.065rem;
+}
+
+section.banner a:hover {
+	color: #f0e6d2;
+}
+
+div.button {
+	box-sizing: border-box;
+	background-color: #1e2328;
+	width: 195px;
+	height: 60px;
+	border-top: 2px solid #f0e6d2;
+	border-left: 2px solid #f0e6d2;
+	border-right: 2px solid #937341;
+	border-bottom: 2px solid #937341;
+
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* ===== ===== ===== ===== ===== 4 column ===== ===== ===== ===== ===== */
+
+section.temp-four {
+	background-color: #eeeaed;
+	background-image: linear-gradient(transparent, #eeeaed), 
+		linear-gradient(to right, transparent, #eeeaed),
+		url("../images/marble-bkg.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 640px; /* down 1*/
+	
+	display: flex;
+	align-items: center;
+}
+
+.sec-title {
+	display: flex;
+	margin: 30px 0 50px 0;
+}
+
+section h2 { /* works with three and four */
+	color: #937341;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin-right: 30px;
+	
+	position: relative;
+	top: -12px;
+
+}
+
+section .section-line {
+	position: relative;
+	width: 100%;
+}
+
+section .sl-square {
+	height: 5px;
+	width: 5px;
+	transform: rotate(45deg);
+	border: 2px solid #937341;
+	
+	position: absolute;
+	top: -4px;
+}
+
+section .sl-line {
+	display: block;
+	height: 2px;
+	background: linear-gradient(90deg, #937341, transparent);
+	margin: 0 10px;
+}
+
+section .temp-four-inner {
+	display: flex;
+	overflow: hidden;
+	min-width: 1218px; /* added 8 since moved left 9 */
+	height: 418px; 
+	
+	position: relative;
+	left: -9px;
+}
+
+section .desc-title {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+}
+
+section h3 { /* works with three and four */
+	color: #121212;
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+section.temp-four p {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+}
+
+section .poster-item {
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+	
+	width: 286px;
+	height: 382px; 
+	
+	background-color: #eeeaed;
+	background-size: 100%;
+	border: 2px solid #937341;
+	box-shadow: 0 0 20px 0 #9b9397;
+	
+	margin: 18px 9px;
+	float: left;
+}
+
+#poster-item-1 {
+	background-image: url("../images/origins-four-1.jpg");
+}
+#poster-item-2 {
+	background-image: url("../images/origins-four-2.jpg");
+}
+#poster-item-3 {
+	background-image: url("../images/origins-four-1.jpg");
+}
+#poster-item-4 {
+	background-image: url("../images/origins-four-2.jpg");
+}
+
+/* ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== ===== */
+
+section.temp-three {
+	background-color: #eeeaed;
+	height: 500px; /* down 1*/
+	
+	background-image: linear-gradient(#eeeaed, transparent), 
+		linear-gradient(to right, #eeeaed, transparent),
+		url("../images/marble-bkg.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	
+	display: flex;
+	align-items: center;
+}
+
+section .temp-three-inner {
+	display: flex;
+	overflow: hidden;
+	min-width: 1218px; /* added 8 since moved left 9 */
+	height: 296px; 
+	
+	position: relative;
+	left: -9px;
+}
+
+section .p-item {
+	display: flex;
+	box-sizing: border-box;
+	position: relative;
+
+	width: 408px;
+	height: 242px;
+
+	background-color: #eeeaed;
+	background-size: 100%;
+	border: 2px solid #937341;
+	box-shadow: 0 0 20px 0 #9b9397;
+	
+	margin: 18px 9px;
+	float: left;
+}
+
+#p-item-1 {
+	background-image: url("../images/origins-four-1.jpg");
+}
+
+#p-item-2 {
+	background-image: url("../images/origins-four-2.jpg");
+}
+
+section.info {
+	background-color: #eeeaed;
+	background-image: linear-gradient(to right, #000, transparent), url("../images/lol-orchestra.png");
+	background-position: center;
+	height: 430px;
+}
