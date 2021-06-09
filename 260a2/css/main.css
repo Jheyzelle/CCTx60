@@ -108,8 +108,13 @@ header {
 
 .contact-form {
     margin: 0;
-    padding: 50px;
+    padding: 100px 50px;
     background-color: #CDC7D9;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 
 input{
@@ -119,6 +124,7 @@ input{
     width: 50%;
     padding: 10px;
     margin: 5px;
+    border: none;
 }
 
 input[type=submit] {
@@ -126,6 +132,12 @@ input[type=submit] {
   width: 100px;
   padding: 10px;
   margin: 5px;
+  border-radius: 10px;
+  border: none;
+
+  -webkit-transition: background-color 0.1s ease-in;
+  -ms-transition: background-color 0.1s ease-in;
+  transition: background-color 0.1s ease-in;
 }
 
 input[type=submit]:hover {
@@ -141,6 +153,7 @@ textarea {
   color: #090922;
   font-family: Arial;
   font-size: 20px;
+  border: none;
 }
 /* =============== footer =============== */
 footer {
@@ -169,63 +182,63 @@ footer a:hover{
 }
 
 @media screen and (max-width: 600px) {
-    header {
-        justify-content: center;
-        text-align: center;
-        padding: 10px;
-    }
-
-    header nav {
-        float: none;
-    }
-
-    nav ul {
-        display: flex;
-    }
-    } #logo {
-        float: none;
-        width: 200px;
-    }
-
-    footer {
-        float: none;
-    }
-
-    input{
-        color: #090922;
-        font-family: Arial;
-        font-size: 20px;
-        width: 95%;
-        padding: 10px;
-        margin: 5px;
-    }
-
-    textarea {
-      resize: none;
-      width: 95%;
+  header {
+      justify-content: center;
+      text-align: center;
       padding: 10px;
-      margin: 5px;
+  }
+
+  header nav {
+      float: none;
+  }
+
+  nav ul {
+      display: flex;
+  }
+  #logo {
+      float: none;
+      width: 200px;
+  }
+
+  footer {
+      float: none;
+  }
+
+  input{
       color: #090922;
       font-family: Arial;
-    }
+      font-size: 20px;
+      width: 90%;
+      padding: 10px;
+      margin: 5px;
+  }
 
-    #profpic {
-        float: none;
-        width: 200px;
-        clear: both;
-        margin: 20px;
-        border-radius: 5px;
-        border: 1px solid black;
-    } .about {
+  textarea {
+    resize: none;
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    color: #090922;
+    font-family: Arial;
+  }
+
+  #profpic {
+      float: none;
+      width: 200px;
+      clear: both;
+      margin: 20px;
+      border-radius: 5px;
+      border: 1px solid black;
+  } .about {
+    justify-content: center;
+    padding-bottom: 30px;
+  } .about p {
+      margin: auto;
+      width: 75%;
       justify-content: center;
-      padding-bottom: 30px;
-    } .about p {
-        margin: auto;
-        width: 75%;
-        justify-content: center;
-        padding: 10px;
-        font-size: 20px;
-    } .dp {
-        text-align: center;
-    }
+      padding: 10px;
+      font-size: 20px;
+  } .dp {
+      text-align: center;
+  }
 }
