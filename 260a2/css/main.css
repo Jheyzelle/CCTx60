@@ -77,34 +77,41 @@ header {
   justify-content: center;
   text-align: center;
 } #ft-vid {
-  width: 90%;
+  width: 80%;
+  height: 500px;
+
 }
 #search {
-    width: 90%;
+    width: 77%;
     margin-top: 50px;
     margin-bottom: 50px;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 3px 5px #b8b1b1;
+
 }
 .port{
   width: 100%;
   justify-content: center;
   text-align: center;
+  padding-bottom: 100px;
 }
+
 .row {
-  width: 27%;
+  box-sizing: border-box;
+  width: 25%;
   clear: both;
   text-align: center;
   justify-content: center;
-  margin: 20px;
+  margin: 10px;
 }
 .piece {
-    border: 1px solid black;
+  box-shadow: 0 3px 4px 1px #b8b1b1;
 }
 .blur:hover {
   filter:blur(7px);
-  border: 1px solid black;
-
   overflow: hidden;
 }
+
 /* =============== form =============== */
 
 .contact-form {
