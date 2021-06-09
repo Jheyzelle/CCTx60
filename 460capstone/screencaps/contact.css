@@ -1,0 +1,187 @@
+.mediaViewInfo {
+	--web-view-name: contact;
+	--web-view-id: contact;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: contact;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.contact_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2176px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: contact;
+	--web-view-id: contact;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.contact_cv_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2176px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.topnav_cw_Class {
+	position: absolute;
+	width: 889px;
+	height: 78px;
+	left: 464px;
+	top: 25px;
+	overflow: visible;
+}
+.navlogo_cx_Class {
+	fill: rgba(255,255,255,0);
+}
+.navlogo_cx {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.navabout_cy_Class {
+	fill: rgba(255,255,255,0);
+}
+.navabout_cy {
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	height: 34px;
+	left: 408px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+}
+.navshop_cz_Class {
+	fill: rgba(255,255,255,0);
+}
+.navshop_cz {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 34px;
+	left: 481px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.navgallery_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.navgallery_c {
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	height: 34px;
+	left: 547px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: mediagallery.html;
+	cursor: pointer;
+}
+.navblog_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.navblog_c {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 34px;
+	left: 680px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: thedailybird.html;
+	cursor: pointer;
+}
+.navcontact_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.navcontact_c {
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	height: 34px;
+	left: 810px;
+	top: 12px;
+}
+.footer_c_Class {
+	position: absolute;
+	width: 1243px;
+	height: 264px;
+	left: 323px;
+	top: 1835px;
+	overflow: visible;
+}
+.mangobirds_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.mangobirds_c {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.githubrepo_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.githubrepo_c {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 44px;
+	left: 441px;
+	top: 220px;
+}
+.totop_c_Class {
+	fill: rgba(255,255,255,0);
+}
+.totop_c {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 39px;
+	left: 1122px;
+	top: 225px;
+}

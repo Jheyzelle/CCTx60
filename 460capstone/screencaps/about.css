@@ -1,0 +1,187 @@
+.mediaViewInfo {
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: about;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.about_Class {
+	position: absolute;
+	width: 1920px;
+	height: 2615px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.about__Class {
+	position: absolute;
+	width: 1920px;
+	height: 2615px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.topnav__Class {
+	position: absolute;
+	width: 889px;
+	height: 78px;
+	left: 464px;
+	top: 25px;
+	overflow: visible;
+}
+.navlogo_ba_Class {
+	fill: rgba(255,255,255,0);
+}
+.navlogo_ba {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.navabout_bb_Class {
+	fill: rgba(255,255,255,0);
+}
+.navabout_bb {
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	height: 34px;
+	left: 408px;
+	top: 12px;
+}
+.navshop_bc_Class {
+	fill: rgba(255,255,255,0);
+}
+.navshop_bc {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 34px;
+	left: 481px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.navgallery_bd_Class {
+	fill: rgba(255,255,255,0);
+}
+.navgallery_bd {
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	height: 34px;
+	left: 547px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: mediagallery.html;
+	cursor: pointer;
+}
+.navblog_be_Class {
+	fill: rgba(255,255,255,0);
+}
+.navblog_be {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 34px;
+	left: 680px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: thedailybird.html;
+	cursor: pointer;
+}
+.navcontact_bf_Class {
+	fill: rgba(255,255,255,0);
+}
+.navcontact_bf {
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	height: 34px;
+	left: 810px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+}
+.footer_bg_Class {
+	position: absolute;
+	width: 1243px;
+	height: 264px;
+	left: 324px;
+	top: 2275px;
+	overflow: visible;
+}
+.mangobirds_bh_Class {
+	fill: rgba(255,255,255,0);
+}
+.mangobirds_bh {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+.githubrepo_bi_Class {
+	fill: rgba(255,255,255,0);
+}
+.githubrepo_bi {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 44px;
+	left: 441px;
+	top: 220px;
+}
+.totop_bj_Class {
+	fill: rgba(255,255,255,0);
+}
+.totop_bj {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 39px;
+	left: 1122px;
+	top: 225px;
+}

@@ -1,0 +1,366 @@
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+.index_Class {
+	position: absolute;
+	width: 1920px;
+	height: 6524px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-navigate-on-keypress: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+.index_l_Class {
+	position: absolute;
+	width: 1920px;
+	height: 6524px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.topnav_Class {
+	position: absolute;
+	width: 889px;
+	height: 78px;
+	left: 464px;
+	top: 25px;
+	overflow: visible;
+}
+.navlogo_Class {
+	fill: rgba(255,255,255,0);
+}
+.navlogo {
+	position: absolute;
+	overflow: visible;
+	width: 377px;
+	height: 78px;
+	left: 0px;
+	top: 0px;
+}
+.navabout_Class {
+	fill: rgba(255,255,255,0);
+}
+.navabout {
+	position: absolute;
+	overflow: visible;
+	width: 65px;
+	height: 34px;
+	left: 408px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+}
+.navshop_Class {
+	fill: rgba(255,255,255,0);
+}
+.navshop {
+	position: absolute;
+	overflow: visible;
+	width: 56px;
+	height: 34px;
+	left: 481px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.navgallery_Class {
+	fill: rgba(255,255,255,0);
+}
+.navgallery {
+	position: absolute;
+	overflow: visible;
+	width: 124px;
+	height: 34px;
+	left: 547px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: mediagallery.html;
+	cursor: pointer;
+}
+.navblog_Class {
+	fill: rgba(255,255,255,0);
+}
+.navblog {
+	position: absolute;
+	overflow: visible;
+	width: 122px;
+	height: 34px;
+	left: 680px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: thedailybird.html;
+	cursor: pointer;
+}
+.navcontact_Class {
+	fill: rgba(255,255,255,0);
+}
+.navcontact {
+	position: absolute;
+	overflow: visible;
+	width: 79px;
+	height: 34px;
+	left: 810px;
+	top: 12px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: contact.html;
+	cursor: pointer;
+}
+.logotoabout_Class {
+	fill: rgba(255,255,255,0);
+}
+.logotoabout {
+	position: absolute;
+	overflow: visible;
+	width: 565px;
+	height: 114px;
+	left: 944px;
+	top: 1440px;
+}
+.seeblog_Class {
+	fill: rgba(255,255,255,0);
+}
+.seeblog {
+	position: absolute;
+	overflow: visible;
+	width: 1224px;
+	height: 507px;
+	left: 348px;
+	top: 3262px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: thedailybird.html;
+	cursor: pointer;
+}
+.footer_Class {
+	position: absolute;
+	width: 1243px;
+	height: 264px;
+	left: 324px;
+	top: 6183px;
+	overflow: visible;
+}
+.mangobirds_Class {
+	fill: rgba(255,255,255,0);
+}
+.mangobirds {
+	position: absolute;
+	overflow: visible;
+	width: 211px;
+	height: 51px;
+	left: 0px;
+	top: 0px;
+}
+.githubrepo_Class {
+	fill: rgba(255,255,255,0);
+}
+.githubrepo {
+	position: absolute;
+	overflow: visible;
+	width: 487px;
+	height: 44px;
+	left: 441px;
+	top: 220px;
+}
+.totop_Class {
+	fill: rgba(255,255,255,0);
+}
+.totop {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 39px;
+	left: 1122px;
+	top: 225px;
+}
+.seegallery_Class {
+	fill: rgba(255,255,255,0);
+}
+.seegallery {
+	position: absolute;
+	overflow: visible;
+	width: 1177px;
+	height: 233px;
+	left: 374px;
+	top: 2827px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: mediagallery.html;
+	cursor: pointer;
+}
+.Ellipse_1_Class {
+	fill: rgba(255,255,255,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+}
+.Ellipse_1 {
+	position: absolute;
+	overflow: visible;
+	width: 524px;
+	height: 524px;
+	left: 349px;
+	top: 1347px;
+}
+.shopbirds_Class {
+	position: absolute;
+	width: 1136px;
+	height: 212px;
+	left: 393px;
+	top: 2220px;
+	overflow: visible;
+}
+.s1_Class {
+	fill: rgba(255,255,255,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.s1 {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 0px;
+	top: 0px;
+}
+.s2_Class {
+	fill: rgba(255,255,255,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.s2 {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 308px;
+	top: 0px;
+}
+.s3_Class {
+	fill: rgba(255,255,255,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.s3 {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 616px;
+	top: 0px;
+}
+.s4_Class {
+	fill: rgba(255,255,255,0);
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: shop.html;
+	cursor: pointer;
+}
+.s4 {
+	position: absolute;
+	overflow: visible;
+	width: 212px;
+	height: 212px;
+	left: 924px;
+	top: 0px;
+}
+
+.msg_Class {
+	position: absolute;
+	width: 547px;
+	height: 213px;
+	left: 687px;
+	top: 619px;
+	overflow: visible;
+}
+.msgbox_Class {
+	fill: rgba(41,26,26,0.639);
+}
+.msgbox {
+	position: absolute;
+	overflow: visible;
+	width: 547px;
+	height: 213px;
+	left: 0px;
+	top: 0px;
+}
+.note_Class {
+	fill: rgba(255,255,255,1);
+}
+.note {
+	overflow: visible;
+	position: absolute;
+	width: 437.748px;
+	height: 133.755px;
+	left: 47.431px;
+	top: 40.465px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.closemsg_Class {
+	fill: rgba(255,255,255,0.529);
+}
+.closemsg {
+	overflow: visible;
+	position: absolute;
+	width: 17.004px;
+	height: 17px;
+	left: 515.498px;
+	top: 13px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.headmsg_Class {
+	opacity: 0.5;
+	left: 1503px;
+	top: 858px;
+	position: absolute;
+	overflow: visible;
+	width: 330px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
