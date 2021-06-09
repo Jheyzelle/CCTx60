@@ -59,10 +59,11 @@ header {
     width: 200px;
     margin: 20px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: none;
+    box-shadow: 0 3px 5px 1px #b8b1b1;
 } .about {
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
 } .about p {
     margin: auto;
     width: 75%;
@@ -228,7 +229,7 @@ footer a:hover{
       clear: both;
       margin: 20px;
       border-radius: 5px;
-      border: 1px solid black;
+
   } .about {
     justify-content: center;
     padding-bottom: 30px;
