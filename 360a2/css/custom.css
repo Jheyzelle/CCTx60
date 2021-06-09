@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Baskervville|Catamaran|Work+Sans|Great+Vibes|Dancing+Script&display=swap');
+
+/* 799AE1 | FFD9EE | E0B3D4 | B05FA1 | 4262B9 */
+* {
+  border-radius: 0 !important;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  box-sizing: border-box;
+  background: #000;
+}
+
+.home-title {
+  font-family: 'Abel', sans-serif;
+  font-size: 4em;
+  text-shadow: 0 0 5px #FF0000;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.form-control {
+  background-color: #3d526b;
+}
+/* ---- ---- ---- ---- ---- NAV ----- ---- ---- ---- ---- */
+
+#nav-logo {
+  object-fit: contain;
+  width: 100px;
+}
+
+.main-nav {
+  z-index: 2000;
+  font-family: 'Abel', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.main-nav .active a {
+  color: #0D1D32!important;
+  font-weight: bold!important;
+
+}
+
+.bg-light {
+  background-color: transparent!important;
+}
+
+.content-after-nav {
+  position: relative;
+  top: -70px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1000;
+}
+  
+header.header.jumbotron {
+  min-height: 300px;
+  background-image: url("../images/header.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.display-4 {
+  text-transform: uppercase;
+}
+/* ----- ----- ----- ----- ----- HOME PAGE ----- ----- ----- ----- ----- */
+
+.page-home {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+.home-header-carousel {
+  margin: 0;
+  padding: 0 !important;
+  position: relative;
+  top: -70px;
+  z-index: -100;
+}
+
+.page-home .carousel-inner {
+  max-height: 100vh;
+}
+
+.page-home .carousel-caption {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.page-home .carousel-caption h1 {
+  font-family: "great vibes";
+  font-size: 7em;
+  text-shadow: 0 0 3px #000000;
+}
+
+.page-home .carousel-caption p {
+  font-family: Abel, Arial, sans-serif;
+  font-size: 2em;
+}
+
+.page-home .carousel-inner .carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-header-carousel .col-12 {
+  padding: 0; 
+}
+
+.navbar, .navbar-expand-lg, .bg-light {
+  background-color: transparent !important;
+}
+
+.page-home .section-2 {
+  padding: 50px;
+  text-align: center;
+  color: #b1c5de;
+}
+
+.page-home hr {
+  border-top: 5px dotted; 
+}
+
+.section-title { 
+  text-transform: uppercase;
+  padding: 35px;
+}
+
+.page-home .card {
+  height: 720px;
+  border: none;
+  overflow: hidden;
+
+}
+
+.page-home .card-body {
+  background-image: linear-gradient(#00000010, #00000090);
+  background-size: cover;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 10;
+  color: #b1c5de;
+}
+
+.page-home .img-wrap {
+  height: 720px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-img-top {
+  object-fit: cover;  
+  height: 100%;
+}
+
+.page-home .card-img-top {
+  filter: grayscale(100%);
+}
+
+.page-home .card:hover .card-img-top {
+  transform-origin: center;
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  
+  transition: all 0.3s ease;
+
+}
+
+.page-home .filover{
+  background-color: #004D84;
+}
+
+.page-home .card-header {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.page-home .filover {
+  width:100%;
+  height:100%;
+  position: absolute;
+  z-index: 5;
+  opacity: 0;
+}
+
+.page-home .card:hover .filover {
+  
+  opacity: 0.2;
+  transition: all 0.3s ease;
+}
+/* ---- ---- ---- ---- ---- FOOTER ----- ---- ---- ---- ---- */
+
+footer {
+  background-color: #31373C;
+  background-size: cover;
+	background-image: linear-gradient(#000, #00000090), url("../images/black-marble.jpg");
+  color: #fff;
+  text-align: center;
+}
+.footer-icons {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.footer-icon {
+  width: 50px;
+  height: 50px;
+  margin:10px;
+}
+
+footer a {
+  color: #ffd9ee;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #B05FA1;
+  text-decoration: none;
+  transition: all 0.2s ease;  
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+.footer-name {
+  text-decoration: none;
+  color: #ffd9ee;
+  font-family: "great vibes", Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+  font-size: 3em;
+}
+#cr {
+  text-align: center;
+  color: #68A19C;
+}
+
+footer .footer-icon:hover {
+  transform-origin: center;
+  -ms-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  
+  transition: all 0.3s ease;
+  
+  filter: none;
+}
+
+footer hr {
+  border-color: #fff;
+  border-style: dashed;
+  opacity: 0.2;
+}
+  /* Remove arrows on phone number input (W3S) */
+  /* https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+/* ----- ----- ----- ----- ----- ABOUT ----- ----- ----- ----- ----- */
+
+.page-about .jumbotron h1 {
+  color: #fff;
+  
+}
+
+.page-about {
+  color: #ced4da;
+}
+
+.page-about table {
+  color: #ced4da;
+}
+
+.page-about .blue-bg {
+  color: #fff;
+  background: linear-gradient(#ACC0DB10, #ACC0DB90);
+}
+
+.page-about .carousel {
+  width: 100%;
+
+}
+
+#demo .carousel-inner {
+  width: 100%;
+}
+
+#demo .carousel-inner img {
+  filter: grayscale();
+  object-fit: cover;
+  width: 100%;
+}
+
+.home-car {
+  width: 100%;
+  height: 300px;
+  border: 5px solid red;
+}
+div.sl-div {
+  background-color: transparent;
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 50px;
+  
+}
+
+.scroll-sec {
+  width: 100%;
+}
+
+.about-page table {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  
+}
+
+#c-1 {
+  height: 150px;
+  
+}
+#c-2 {
+  height: 170px;  
+}
+#c-3 {
+  height: 200px;  
+}
+#c-4 {
+  height: 230px;  
+}
+  #scroll-sec-1 {
+  }
+  #scroll-sec-2 {
+    padding-top: 30px;
+  }
+  #scroll-sec-3 {
+    padding-bottom: 100px;
+  }
+
+/* ----- ----- ----- ----- ----- PORTFOLIO ----- ----- ----- ----- ----- */
+
+.page-portfolio .search-button {
+  border: 1px solid #ced4da;
+  color: #ced4da;
+}
+
+/* https://stackoverflow.com/questions/20773665/fail-to-change-placeholder-color-with-bootstrap-3 */
+.form-control::-webkit-input-placeholder { color: #ced4da; opacity: 0.5; }  /* WebKit, Blink, Edge */
+.form-control:-moz-placeholder { color: #ced4da; opacity: 0.5; }  /* Mozilla Firefox 4 to 18 */
+.form-control::-moz-placeholder { color: #ced4da; opacity: 0.5; }  /* Mozilla Firefox 19+ */
+.form-control:-ms-input-placeholder { color: #ced4da; opacity: 0.5; }  /* Internet Explorer 10-11 */
+.form-control::-ms-input-placeholder { color: #ced4da; opacity: 0.5; }  /* Microsoft Edge */
+
+/* ----- ----- ----- ----- ----- BLOG ----- ----- ----- ----- ----- */
+.page-blog .blog-post-tn {
+  object-fit: cover;
+  background-color: black;
+}
+
+.page-blog .media {
+  padding-bottom: 3px;
+  padding-top: 10px;
+  border-bottom: 3px dotted #ced4da;
+}
+
+.comment-dp {
+
+}
+/* ----- ----- ----- ----- ----- CONTACT ----- ----- ----- ----- ----- */
+
+.page-contact {
+
+}
+
+.page-contact hr {
+  border-top: 5px dotted #b1c5de;
+}
+.form-control:focus {
+  border-color: #b05fa1;
+  box-shadow: inset 0 1px 1px #C89A60;
+}
+
+.social-contact-links {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.social-contact-links a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-contact-links p {
+  padding-top: 15px;
+  margin: 0;
+}
+
+.contact-social-img {
+  width: 50px;
+  height: 50px;
+  margin: 3px;
+}
+
+.contact-content {
+  font-family: Arial, "Work Sans", sans-serif;
+  color: #b1c5de;
+}
+@media (max-width: 768px) {
+  
+  .social-contact-links {
+    text-align: center;
+    margin: 30px 0;
+  }
+  .social-contact-links li {
+    display: inline-block;
+  }
+  
+  .social-contact-links p {
+    display: none;
+  }
+  
+  .contact-social-img {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-after-nav {
+      top: auto;
+  }
+
+  .navbar, .navbar-expand-lg, .bg-light {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .navbar, .navbar-expand-lg, .bg-light {
+    position: absolute;
+    width: 100%;
+  }
+  
+  .navbar .navbar-toggler {
+    float: right;
+  }
+
+}
+
+  
